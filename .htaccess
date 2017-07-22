@@ -1,0 +1,107 @@
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.tintucthethao.info/ [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^(.*)$ http://tintucthethao.info/$1 [L,R]
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteBase /
+RewriteRule \.(css|js|jpg|jpeg|png|gif|ico)$ - [L]
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+##############################  giao dien nguoi dung
+RewriteRule ^home.html$   /index.php [L]
+RewriteRule ^lien-he.html$    /index.php?mod=lien-he [L]
+RewriteRule ^doi-tac.html$    /index.php?mod=bai-viet&act=chi-tiet&id=8 [L]
+RewriteRule ^chinh-sach-bao-mat.html$    /index.php?mod=bai-viet&act=chi-tiet&id=7 [L]
+RewriteRule ^gioi-thieu-doi-ngu-chuyen-gia.html$    /index.php?mod=bai-viet&act=chi-tiet&id=2 [L]
+RewriteRule ^cau-truc-site.html$    /index.php?mod=bai-viet&act=chi-tiet&id=6 [L]
+RewriteRule ^the-hoi-vien.html$    /index.php?mod=bai-viet&act=chi-tiet&id=9 [L]
+RewriteRule ^ban-do.html$    /index.php?mod=bai-viet&act=chi-tiet&id=1 [L]
+
+RewriteRule ^phan-hoi.html$  /index.php?mod=phan-hoi&act=danh-muc [L]
+RewriteRule ^phan-hoi/([0-9]*)-([a-zA-Z0-9-]*).html$  /index.php?mod=phan-hoi&act=chi-tiet&id=$1 [L]
+
+RewriteRule ^tu-van-truc-tuyen.html$  /index.php?mod=hoi-dap&act=danh-muc [L]
+RewriteRule ^tu-van-truc-tuyen/cau-hoi-thuong-gap.html$   /index.php?mod=hoi-dap&act=cau-hoi-thuong-gap [L]
+RewriteRule ^tu-van-truc-tuyen/cau-hoi-khach-hang.html$   /index.php?mod=hoi-dap&act=cau-hoi-khach-hang [L]
+RewriteRule ^tu-van-truc-tuyen/tim-kiem.html$  /index.php?mod=hoi-dap&act=tim-kiem [L]
+RewriteRule ^tu-van-truc-tuyen/tim-kiem.html/([a-zA-Z0-9-]*)$   /index.php?mod=hoi-dap&act=tim-kiem&p=$1 [L]
+RewriteRule ^tu-van-truc-tuyen/goi-cau-hoi.html$    /index.php?mod=hoi-dap&act=cau-hoi [L]
+
+RewriteRule ^bang-gia.html$    /index.php?mod=bang-gia&act=danh-muc [L]
+RewriteRule ^bang-gia/([a-zA-Z0-9-]*).html$    /index.php?mod=bang-gia&act=chi-tiet&id=$1 [L]
+
+RewriteRule ^bac-sy.html$    /index.php?mod=bac-sy&act=danh-muc [L]
+RewriteRule ^bac-sy/tim-kiem.html$    /index.php?mod=bac-sy&act=tim-kiem [L]
+RewriteRule ^bac-sy/([a-zA-Z0-9-]*).htm$    /index.php?mod=bac-sy&act=danh-muc&id=$1 [L]
+RewriteRule ^bac-sy/([a-zA-Z0-9-]*).html$    /index.php?mod=bac-sy&act=chi-tiet&id=$1 [L]
+
+RewriteRule ^chuyen-khoa.html$    /index.php?mod=chuyen-khoa&act=danh-muc [L]
+RewriteRule ^chuyen-khoa/([a-zA-Z0-9-]*).html$    /index.php?mod=chuyen-khoa&act=chi-tiet&id=$1 [L]
+
+RewriteRule ^dat-lich-kham.html$    /index.php?mod=payment&act=showorder [L]
+RewriteRule ^thong-tin-dat-hang.html$    /index.php?mod=payment&act=order [L]
+
+RewriteRule ^tim-kiem.html$    /index.php?mod=chuyen-khoa&act=tim-kiem [L]
+RewriteRule ^tim-kiem.html/([a-z0-9]*)$    /index.php?mod=chuyen-khoa&act=tim-kiem&p=$1 [L]
+
+RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*).html$    /index.php?mod=$1&act=$2&id=$3 [L]
+RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*).html/([a-z0-9]*)$    /index.php?mod=$1&act=$2&id=$3&p=$4 [L]
+
+RewriteRule ^dang-nhap.html$      /index.php?mod=thanhvien&act=dangnhap [L]
+RewriteRule ^dang-ky.html$      /index.php?mod=thanhvien&act=dangky [L]
+RewriteRule ^trang-ca-nhan.html$       /index.php?mod=thanhvien&act=canhan [L]
+RewriteRule ^thoat.html$       /index.php?mod=thanhvien&act=logout [L]
+RewriteRule ^doi-mat-khau.html$       /index.php?mod=thanhvien&act=changepassword [L]
+RewriteRule ^doi-anh-dai-dien.html$       /index.php?mod=thanhvien&act=avatar [L]
+RewriteRule ^lich-su-giao-dich.html$       /index.php?mod=thanhvien&act=order [L]
+RewriteRule ^quen-mat-khau.html$       /index.php?mod=thanhvien&act=forgot [L]
+
+
+##############################  admin
+#-------------
+RewriteRule ^admincp/([a-zA-Z]*)/([a-zA-Z]*)$    /admincp/index.php?mod=$1&act=$2 [L]
+RewriteRule ^admincp/([a-zA-Z]*)/([a-zA-Z]*)/([0-9]*)$    /admincp/index.php?mod=$1&act=$2&id=$3 [L]
+RewriteRule ^admincp/([a-zA-Z]*)/([a-zA-Z]*)/([a-z0-9]*)$    /admincp/index.php?mod=$1&act=$2&p=$3 [L]
+RewriteRule ^admincp/([a-zA-Z]*)/([a-zA-Z]*)/([0-9]*)/([a-z0-9]*)$    /admincp/index.php?mod=$1&act=$2&id=$3&p=$4 [L]
+
+#--------------logout
+RewriteRule ^admincp/logout$    /admincp/index.php?mod=logout [L]
+
+#-------------- ajax admin 
+RewriteRule ^login.php$   /admincp/login.php [L]
+RewriteRule ^getContent.php/(.*)/(.*)$    /admincp/getContent.php?nocache=$1&name=$2 [L]
+
+<FilesMatch "\\.(js|css|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+<Files .htaccess>
+  deny from all
+</Files>
+
+<Files .staccess>
+  deny from all
+</Files>
+
+
+# Disable .htaccess viewing from browser
+<files ~ "^\.ht">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</files>
+
+# Disable config.php viewing from browser
+<files ~ "\config.php$">
+    deny from all
+</files>
+
+# deny most common except .php/.html
+<FilesMatch "\.(inc|tpl|h|ihtml|sql|ini|conf|class|bin|spd|theme|module|exe)$">
+deny from all
+</FilesMatch>
+
+ErrorDocument 404 http://tintucthethao.info/

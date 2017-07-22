@@ -1,0 +1,864 @@
+@media screen and (max-width:350px)
+{
+	#header
+	{
+		background-color:#fff;
+		margin:auto;
+		width:100%;
+	}
+		
+	#logo_index 
+	{
+		margin: 10px auto !important;
+		width: 100% !important;
+	}
+	
+	#logo 
+	{
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+	
+	.top_menu, #quangcao, .index_chuyenkhoa, .index_facebook, .doitac_label_hr, .phanhoi, .cauhoi_label, .tuvan_baiviet, #cauhoi_chude, #icon_dt1,      
+	#icon_dt2, .ft_left, .left_col, #divAdRight, #divAdLeft, .prev, .next
+	{
+		display:none;
+	}
+	
+	.top_mobile
+	{
+		display: block;
+        margin: 0 0 5px;
+	}
+	
+	.top_capcuu
+	{
+		clear: none;
+		float: left;
+		text-align: center;
+		width: 60%;
+	}
+	
+	.form_lang
+	{
+		float: right;
+        margin: 0 10px 0 0;
+	}
+		
+	#search_top 
+	{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		clear: none;
+		margin: 0;
+		position: absolute;
+		right: 5px;
+		top: 7px;
+		width: 55%;
+	}
+		
+	#keyword {
+		border: medium none;
+		color: #888;
+		float: left;
+		height: 25px;
+		padding-left: 10px;
+		width: 80%;
+	}
+		
+	#search_box 
+	{
+		background-color: #fff;
+		height: 27px;
+		margin:auto;
+		width: 100%;
+	}
+	
+	#menu_mobi 
+	{
+		background: #009241 none repeat scroll 0 0;
+		color: #fff;
+		cursor: pointer;
+		display: block !important;
+		font-size: 15px;
+		font-weight: bold;
+		padding: 8px 0 8px 7px;
+		position: relative;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	
+	#menu_mobi_img
+	{
+		float: left;
+        height: 25px;
+	}
+	
+	#owl-demo
+	{
+		display:block;
+	}
+	
+	#quangcao_mobile
+	{
+		display:block;
+		background-color:#009241;
+		width:100%;
+		height:40px;
+		clear:both;
+	}
+			
+	.quangcao_mobile_datlich 
+	{
+		background-image: url("../images/icon_lich.jpg");
+		background-repeat: no-repeat;
+		background-size: 25px auto;
+		color: #fff;
+		float: left;
+		margin: 7px 0 0 5px;
+		padding: 4px 0 5px 30px;
+		width: 40%;
+	}
+	
+	.quangcao_mobile_timbacsy
+	{
+		background-image: url("../images/icon_doctor.jpg");
+		background-repeat: no-repeat;
+		background-size: 25px auto;
+		color: #fff;
+		float: right;
+		margin: 7px 0 0;
+		padding: 4px 0 5px 30px;
+		width: 40%;
+	}
+	
+	#page_lienhe 
+	{
+		background-color: #fff;
+		margin: auto;
+		width: 100%;
+	}
+    
+	.lienhe 
+	{
+		font-size: 12px !important;
+		overflow: hidden;
+		padding:10px 0 20px;
+		float:none;
+		margin:auto;
+		width:100%;
+	}
+	
+	.noidung_contact
+	{
+		float:none;
+		width:100%;
+		padding:0 10px;
+	}
+	
+	#info_contact {
+		background-color: #f9f4f4;
+		float: none;
+		height: auto;
+		margin: auto;
+		padding: 15px 10px 10px 15px;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.hotline-popup
+	{
+		display:none;
+	}
+	
+	.lienhe input[type=text] 
+	{
+		border:solid 1px #CCC; 
+		width:90%; 
+		height:20px; 
+		margin-top:10px; 
+	}
+	
+	.noidung_contact table
+	{
+		width:100%;
+	}
+	
+	.lienhe #noidung 
+	{
+		width:90%;
+	}
+	
+	#page_html 
+	{
+		width:100%;
+	}
+	
+	.pagehtml_content
+	{
+		float:none;
+		padding-left:5px !important;
+	}
+	
+	.info3
+	{
+		width:100%;
+	}
+	
+	
+	.content_noidung2 img
+	{
+		width:90%;
+		height:auto;
+	}
+	
+	#header_index
+	{
+		padding:15px 0 0;
+	}
+	
+	.div_content_search .product-item
+	{
+		width:46%;
+	}
+	
+	.div_content_search
+	{
+		width:100%;
+	}
+	
+	.cmt_phone 
+	{
+		margin: 7px 0 7px 10px;
+		width: 90%;
+	}
+	
+	.chuyenkhoa_mobile
+	{
+		display:block;
+	}
+		
+	.hotnews_label {
+		color: #f00;
+		font-size: 14px;
+		font-weight: bold;
+		margin: 15px 0 0 7px;
+		text-transform: uppercase;
+	}
+		
+	.chuyenkhoa_label_hr {
+		border-bottom: 2px solid #278352;
+		float: right;
+		margin-top: 12px;
+		width: 45%;
+	}
+	
+	.chuyenkhoa_label_hr {
+		border-bottom: 2px solid #278352;
+		float: right;
+		margin-top: 12px;
+		width: 45%;
+	}
+	
+	.hotnews_label_hr 
+	{
+		border-bottom: 2px solid #278352;
+		float: right;
+		margin-top: 12px;
+		width: 80%;
+	}
+	
+	.index_chuyenkhoa_row {
+		border-bottom: medium none;
+		clear: none;
+		float: left;
+		font-size: 13px;
+		height: 25px;
+		margin: 3px 12px;
+		padding: 7px 0 5px 7px;
+		text-transform: uppercase;
+		width: 40%;
+	}
+		
+	.hotnews_info 
+	{
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	
+	.hotnews_box 
+	{
+		background-color:#FFF;
+		height: auto;
+		margin: 3px 0 0;
+		overflow: hidden;
+		padding: 5px 0;
+		width: 100%;
+		border:none;
+	}
+	
+	.hotnews_box img 
+	{
+		border: 1px solid #eee;
+		clear: both;
+		float: none;
+		height: auto;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.hotnews_title 
+	{
+		color: #257c52;
+		font-size: 17px;
+		font-weight: bold;
+		margin: 7px 0;
+		padding: 0 0 0 5px;
+	}
+	
+	.hotnews_mota 
+	{
+		color: #555;
+		height: auto;
+		overflow: hidden;
+		padding: 0 5px;
+	}
+	
+	.hotnews_cungloai_img
+	{
+		display: block;
+		float: left;
+		height: auto;
+		margin:7px 0;
+		width: 30%;
+	}
+	
+	.hotnews_cungloai_clear
+	{
+		display:block;
+		clear:both;
+	}
+	
+	.hotnews_cungloai_row 
+	{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		color: #009241;
+		float: left;
+		font-size: 14px;
+		line-height: 18px;
+		margin: 12px 0 0;
+		padding: 0 5px 0 10px;
+		text-transform: capitalize;
+		width: 65%;
+	}
+	
+	.doitac_label 
+	{
+		color: #f00;
+		font-size: 16px;
+		font-weight: bold;
+		margin: 0;
+		padding: 0 0 0 9px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	
+	#cty_img
+	{
+		padding: 5px 0 0;
+		width: 100%;
+		background-color: #eee;
+		height: auto;
+		padding: 10px 0px 5px 0px;
+	}
+	
+	.phanhoi_anh 
+	{
+		float: left;
+		margin: auto;
+		text-align: center;
+		width: 48%;
+	}
+	
+	.cauhoi_img 
+	{
+		height: auto;
+		margin: auto;
+		width: 100%;
+	}
+	
+	.profile 
+	{
+		background-image: url("../images/background_bacsy.png");
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-size: 100px auto;
+		float: right;
+		margin: 5px 7px 0 0;
+		width: 48%;
+	}
+	
+	.profile_img 
+	{
+		float: left;
+		height: auto;
+		margin: 0 3px 0 0;
+		width: 55px;
+	}
+	
+	.profile_box 
+	{
+		float: right;
+		width: 60%;
+	}
+	
+	.profile_ten {
+		color: #333;
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0 0 3px;
+		text-transform: uppercase;
+	}
+	
+	.ftmobile_left
+	{
+		display: block;
+		float: none;
+		padding: 0 0 0 5px;
+		width: 100%;
+	}
+	
+	.ft_right {
+		float: none;
+		margin: 10px 0 0;
+		padding: 0 0 0 7px;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.ft_right div 
+	{
+		color: #333;
+		font-size: 14px;
+		padding:0px;
+		text-align: left;
+	}
+	
+	.ftmobile_place
+	{
+		background-image: url("../images/icon place.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 3px 0 7px;
+		padding: 0 0 0 18px;
+	}
+	
+	.ftmobile_phone
+	{
+		background-image: url("../images/icon_cellphone.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 3px 0 5px;
+		padding: 0 0 0 18px;
+	}
+	
+	.footer 
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	.according_parent 
+	{
+		font-size: 12px;
+		margin: 12px 0 10px 18px;
+		text-align: left;
+	}
+	
+	#accordiondemo2 
+	{
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	
+	#accordiondemo3 
+	{
+		clear: both;
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.listnews {
+		float: left;
+		padding: 5px 0 10px;
+		width: 100%;
+	}
+	
+	#list_title {
+		border-bottom: 3px solid #55c95c;
+		color: #333;
+		font-family: "Roboto";
+		font-size: 14px;
+		margin: 0 1px 5px;
+		padding: 7px 0 5px 5px;
+		text-transform: uppercase;
+	}
+	
+	div.listnews_content 
+	{
+		padding: 3px 0 0;
+		width: 100%;
+	}
+    
+	h2.date_news 
+	{
+		color: #666;
+		font-family: "Roboto";
+		font-size: 12px;
+		font-style: italic;
+		font-weight: normal;
+		line-height: 18px;
+		margin: 0;
+		padding: 0 10px 0 9px;
+	}
+		
+	.news p {
+		height: 90px;
+		margin: 8px 7px 3px 0;
+		overflow: hidden;
+		padding: 0 5px 0 0;
+	}
+	
+	.detailnews_content img
+	{
+		max-width:90%;
+		height:auto !important;
+	}
+	
+	.thumb 
+	{
+		margin: auto;
+		width: 98%;
+	}
+	
+	.list_prod .product-item 
+	{
+		clear: both;
+		float: none;
+		margin: 15px auto 20px;
+		position: relative;
+		width: 80%;
+	}
+		
+	.tag-detail p 
+	{
+		border-bottom: 3px solid #55c95c;
+		color: #555;
+		font-size: 16px;
+		font-weight: normal;
+		margin: 0 0 7px;
+		padding: 0 0 5px 7px;
+	}
+	
+	.div_sp_cl .product-item 
+	{
+		float: none;
+		margin: 5px auto 15px;
+		position: relative;
+		width: 80%;
+	}
+	
+	.list_bacsy 
+	{
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		float: none;
+		height: auto;
+		margin: 15px auto 20px;
+		width: 80%;
+	}
+	
+	#detailprod_img 
+	{
+		border: 1px solid #ccc;
+		height: auto;
+		margin: auto;
+		width: 40%;
+	}
+	
+	.hinhcitiet 
+	{
+		clear: both;
+		overflow: hidden !important;
+		padding: 10px 5px;
+	}
+	
+	.image_pro 
+	{
+		float: left;
+		width: 46%;
+	}
+	
+	#info_detail_desktop 
+	{
+		display: block;
+		float: right;
+		width: 52%;
+	}
+	
+	#detailprod_img 
+	{
+		border: 1px solid #ccc;
+		height: auto;
+		margin: auto;
+		width: 100%;
+	}
+	
+	.hinhcitiet h1 
+	{
+		font-size: 18px;
+	}
+	
+	.div_left
+	{
+		width:100%;
+	}	
+	
+	.content_cart 
+	{
+		padding: 10px 0;
+		width: 100%;
+	}
+	
+	#form_mobi 
+	{
+		display: block;
+		margin-top: 0px;
+		width: 100%;
+	}
+	
+	#form_mobi .info_customer table 
+	{
+		margin-top: 10px;
+		width: 100%;
+	}
+	
+	.info_customer input[type="text"], .info_customer select 
+	{
+		width: 100%;
+	}
+	
+	.info2 
+	{
+		float: none;
+		margin: 0 3px;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.info_customer td
+	{
+		min-width:70px;
+	}
+	
+	.bacsy_search 
+	{
+		margin: 15px 3px 20px;
+        width: 100%;
+	}
+	
+	.bacsy_search table
+	{
+		width:100%;
+	}
+	
+	#bacsy_hoten 
+	{
+		height: 27px;
+		margin: 3px 0 0;
+		padding: 0 0 0 5px;
+		width: 100px;
+	}
+		
+	#bacsy_chuyenkhoa 
+	{
+		height: 27px;
+		margin: 3px 0 0;
+		min-width: 100px;
+	}
+	
+	#basy_btn_search 
+	{
+		height: 30px;
+		margin: 22px 0 0;
+		width: 85px;
+	}
+	
+    .phanhoi_box 
+	{
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		float: none;
+		height: 320px;
+		margin: 15px auto;
+		width: 80%;
+	}
+	
+	.news {
+		border-bottom: 1px dashed #ccc;
+		float: none;
+		font-size: 12px;
+		height: auto;
+		margin: 0 15px 20px 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	
+	.hoidap_content
+	{
+		padding: 10px 10px 0 5px;
+	}
+	
+	.datcauhoi_main {
+		background-color: #fff;
+		margin: auto;
+		padding: 15px 0;
+		width: 100%;
+	}
+		
+	.datcauhoi_noidung 
+	{
+		padding: 0 5px;
+	}
+	
+	.cauhoitab_left 
+	{
+		float:none;
+		font-size: 13px;
+		width:100%;
+	}
+	
+	.cauhoitab_right 
+	{
+		float: none;
+		font-size: 13px;
+		margin: 15px 0 0;
+		width: 100%;
+	}
+	
+	.cauhoitab_right tr td
+	{
+		text-align:left;
+	}
+	
+	.tableft_input 
+	{
+		height: 27px;
+		margin: 0 0 10px;
+		width: 95%;
+	}
+	
+	.tableft_box {
+		height: 100px;
+		margin: 0 0 10px;
+		width: 95%;
+		min-width:0px;
+	}
+	
+	#content_vn_parent
+	{
+		width:100%;
+	}
+	
+	.tabright_input 
+	{
+		height: 27px;
+		margin: 0 0 10px;
+		width: 95%;
+	}
+	
+	.ftmobile_mxh
+	{
+		clear: both;
+		margin: 5px 0 12px;
+		width: 95%;
+		display:block;
+	}
+	
+	.ftmobile_fb
+	{
+		float:left;
+		width:50%;
+		text-align:center;
+	}
+	
+	.ftmobile_gplus
+	{
+		float:right;
+		width:50%;
+		text-align:center;
+	}
+	
+	.ftmobile_mxh
+	{
+		clear: both;
+		margin: 5px 0 12px;
+		width: 95%;
+	}
+	
+	.ftmobile_fb
+	{
+		float:left;
+		width:50%;
+		text-align:center;
+	}
+	
+	.ftmobile_gplus
+	{
+		float:right;
+		width:50%;
+		text-align:center;
+	}
+	
+	.index_chuyenkhoa_row div 
+	{
+		display: table;
+		float: left;
+		font-family: arial;
+		font-size: 10px;
+		font-weight: bold;
+		height: 25px;
+		margin-top: 0px;
+		overflow: hidden;
+		width: 77%;
+	}
+	
+	.index_chuyenkhoa_row div span
+	{
+		display: table-cell;
+        vertical-align: middle;
+	}
+	
+	.prev2
+	{
+		margin-top:20%;
+	}
+	
+	.next2
+	{
+		margin-top:20%;
+	}
+	
+	#fromdatcauhoi 
+	{
+		float: none;
+		margin: 10px 0 0 5px;
+	}
+	
+}
